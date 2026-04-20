@@ -1,1 +1,82 @@
-testo
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy – AriannaApp</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 800px; margin: 40px auto; padding: 0 20px; color: #333; line-height: 1.6; }
+    h1 { color: #1a1a1a; }
+    h2 { color: #2c2c2c; margin-top: 30px; }
+    a { color: #1a73e8; }
+    footer { margin-top: 40px; font-size: 0.9em; color: #666; }
+  </style>
+</head>
+<body>
+
+  <h1>Privacy Policy – AriannaApp</h1>
+  <p><strong>Sviluppatore:</strong> Fabrizio Pucci – Dune Sistemi<br>
+     <strong>Sito web:</strong> <a href="https://www.dune-sistemi.com">www.dune-sistemi.com</a><br>
+     <strong>Contatto:</strong> <a href="mailto:fabrizioPucci@dune-sistemi.com">fabrizioPucci@dune-sistemi.com</a><br>
+     <strong>Ultimo aggiornamento:</strong> 20 aprile 2026</p>
+
+  <h2>1. Introduzione</h2>
+  <p>La presente Privacy Policy descrive come AriannaApp raccoglie, utilizza e protegge i dati durante il suo utilizzo. AriannaApp è un'applicazione Android sviluppata da Fabrizio Pucci – Dune Sistemi, destinata all'integrazione con sistemi di consapevolezza situazionale (ATAK) tramite generazione di dati CoT XML, stringhe NMEA e simulazione GPS.</p>
+
+  <h2>2. Dati raccolti</h2>
+  <p>AriannaApp accede alle seguenti informazioni sul dispositivo:</p>
+  <ul>
+    <li><strong>Posizione GPS/GNSS:</strong> utilizzata per determinare e trasmettere la posizione dell'utente verso sistemi ATAK configurati. I dati di posizione non vengono memorizzati in modo permanente né trasmessi a server esterni.</li>
+    <li><strong>Bluetooth (BLE):</strong> utilizzato per comunicare con dispositivi hardware esterni (es. sensori inerziali ESP32). Nessun dato personale viene trasmesso via Bluetooth.</li>
+    <li><strong>Rete locale (UDP):</strong> i dati di posizione vengono inviati via UDP sulla rete locale verso sistemi ATAK configurati dall'utente. Nessun dato viene inviato a server Internet di terze parti.</li>
+  </ul>
+
+  <h2>3. Dati NON raccolti</h2>
+  <p>AriannaApp <strong>non raccoglie</strong>, non memorizza e non trasmette a terze parti:</p>
+  <ul>
+    <li>Dati personali identificativi (nome, email, numero di telefono)</li>
+    <li>Dati di navigazione o cronologia</li>
+    <li>Dati biometrici</li>
+    <li>Informazioni finanziarie</li>
+  </ul>
+
+  <h2>4. Condivisione con terze parti</h2>
+  <p>I dati trattati da AriannaApp non vengono condivisi con terze parti, venduti né ceduti ad alcun soggetto esterno. L'unica trasmissione di dati avviene sulla rete locale dell'utente verso sistemi ATAK da lui configurati.</p>
+
+  <h2>5. Autorizzazioni richieste</h2>
+  <p>L'applicazione richiede le seguenti autorizzazioni Android:</p>
+  <ul>
+    <li><code>ACCESS_FINE_LOCATION</code> – per la lettura del GPS</li>
+    <li><code>FOREGROUND_SERVICE</code> / <code>FOREGROUND_SERVICE_LOCATION</code> – per mantenere attivo il servizio di posizione in background</li>
+    <li><code>BLUETOOTH_SCAN</code> / <code>BLUETOOTH_CONNECT</code> – per la comunicazione BLE con dispositivi esterni</li>
+    <li><code>INTERNET</code> / <code>ACCESS_NETWORK_STATE</code> – per la trasmissione UDP sulla rete locale</li>
+  </ul>
+
+  <h2>6. Servizi in primo piano (Foreground Services)</h2>
+  <p>AriannaApp utilizza servizi Android in primo piano per garantire la continuità della trasmissione dei dati di posizione anche quando l'app non è in primo piano. Questo è necessario per il corretto funzionamento con sistemi ATAK in scenari operativi. L'utente viene sempre notificato della presenza del servizio attivo tramite notifica persistente.</p>
+
+  <h2>7. Conservazione dei dati</h2>
+  <p>AriannaApp non conserva dati di posizione o altri dati sensibili in modo permanente. I dati vengono elaborati in tempo reale e trasmessi localmente senza archiviazione su disco o cloud.</p>
+
+  <h2>8. Sicurezza</h2>
+  <p>Adottiamo misure tecniche adeguate per proteggere i dati trattati dall'app. La comunicazione avviene esclusivamente su reti locali controllate dall'utente.</p>
+
+  <h2>9. Minori</h2>
+  <p>AriannaApp non è destinata a utenti di età inferiore ai 18 anni e non raccoglie consapevolmente dati relativi a minori.</p>
+
+  <h2>10. Modifiche alla Privacy Policy</h2>
+  <p>Eventuali aggiornamenti alla presente policy saranno pubblicati su questa pagina con indicazione della data di modifica.</p>
+
+  <h2>11. Contatti</h2>
+  <p>Per qualsiasi domanda relativa alla privacy:<br>
+     <strong>Fabrizio Pucci – Dune Sistemi</strong><br>
+     <a href="https://www.dune-sistemi.com">www.dune-sistemi.com</a><br>
+     <a href="mailto:fabrizioPucci@dune-sistemi.com">fabrizioPucci@dune-sistemi.com</a>
+  </p>
+
+  <footer>
+    <p>© 2026 Fabrizio Pucci – Dune Sistemi. Tutti i diritti riservati.</p>
+  </footer>
+
+</body>
+</html>
